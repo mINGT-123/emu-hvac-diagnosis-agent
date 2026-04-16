@@ -14,8 +14,6 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.config import SETTINGS
 
 os.environ.setdefault("ANONYMIZED_TELEMETRY", "False")
-os.environ.setdefault("CHROMA_TELEMETRY_IMPL", "chromadb.telemetry.product.noop.NoOp")
-os.environ.setdefault("CHROMA_PRODUCT_TELEMETRY_IMPL", "chromadb.telemetry.product.noop.NoOp")
 
 _COLLECTION = "hvac_manual"
 _EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
