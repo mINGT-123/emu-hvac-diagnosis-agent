@@ -1,6 +1,8 @@
 langchain==0.3.19
 langchain-core==0.3.40
 langchain-community==0.3.18
+langchain-chroma==0.2.2
+langchain-huggingface==0.1.2
 langchain-ollama==0.2.3
 chromadb==0.5.20
 sentence-transformers==3.4.1

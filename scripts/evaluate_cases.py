@@ -1,6 +1,13 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
+
+
+# Ensure imports work no matter where this script is launched from.
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.agent.diagnosis_agent import run_diagnosis
 from app.evaluation.judge import score_report
