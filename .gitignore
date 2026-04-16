@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime data
+.chroma/
+app/data/_uploaded.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

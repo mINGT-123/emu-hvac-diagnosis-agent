@@ -1,0 +1,12 @@
+langchain==0.3.19
+langchain-core==0.3.40
+langchain-community==0.3.18
+langchain-ollama==0.2.3
+chromadb==0.5.20
+sentence-transformers==3.4.1
+pandas==2.2.3
+numpy==2.2.3
+streamlit==1.42.2
+python-dotenv==1.0.1
+pydantic==2.10.6
+requests==2.32.3
